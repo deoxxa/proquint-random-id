@@ -1,0 +1,33 @@
+{
+  "name": "proquint-random-id",
+  "version": "0.0.0",
+  "description": "Generate human-readable random ID's using crypto.randomBytes and proquint",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/proquint-random-id.git"
+  },
+  "keywords": [
+    "proquint",
+    "random",
+    "id",
+    "human",
+    "readable",
+    "crypto"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/proquint-random-id/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.1"
+  },
+  "dependencies": {
+    "proquint": "~0.0.1"
+  }
+}
