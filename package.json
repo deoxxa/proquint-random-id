@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Generate human-readable random ID's using crypto.randomBytes and proquint",
   "main": "index.js",
+  "bin": {
+    "proquint-random-id": "./bin/proquint-random-id.js"
+  },
   "scripts": {
     "test": "mocha -R tap"
   },
